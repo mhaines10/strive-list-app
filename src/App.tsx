@@ -2,8 +2,6 @@ import React, {useState, useEffect, useCallback} from 'react';
 import './Styles/App.scss';
 import {ReactComponent as Watermark} from './Styles/watermark.svg';
 import SearchBar from './Components/SearchBar';
-import { GetPeople } from './Services/GetPeople';
-import { Person } from './Models/Person';
 import PersonList from './Components/PersonList';
 
 function App() {
