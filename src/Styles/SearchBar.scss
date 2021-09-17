@@ -1,0 +1,53 @@
+.SearchBar {
+  width: inherit;
+  background-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  height: 30px;
+  box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SearchBar input {
+  background-color: #dcdcdc;
+  border: 0px;
+  height: 28px;
+  display: flex;
+  flex-grow: 4;
+}
+
+.SearchIcon {
+  padding-left: 8px;
+  padding-right: 3px;
+  font-size: 0.7em;
+  color: #737373;
+}
+
+.CloseIcon {
+  font-size: 0.8em;
+  color: #666666;
+  height: 100%;
+}
+
+.CloseButton {
+  padding-right: 8px;
+  height: 60%;
+  font-size: 0.7em;
+  color: inherit;
+  border-left: 1px solid #c8c8c8;
+  padding-left: 8px;
+  right: 10px;
+  display: flex;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

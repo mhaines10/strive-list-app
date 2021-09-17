@@ -1,0 +1,42 @@
+.PersonList {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.CardDiv {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15%;
+  min-height: 90px;
+}
+
+.CardDiv img {
+  height: 80%;
+  border: 1px solid #dcdcdc;
+}
+
+.TextDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 20px;
+  text-align: left;
+  height: 100%;
+  justify-content: flex-start;
+  overflow-y: hidden;
+}
+.TextDiv h4 {
+  font-weight: 450;
+  margin: 10px 0px 0px 0px;
+}
+.TextDiv h5 {
+  font-weight: 400;
+  margin: 10px 0px 0px 0px;
+  color: #484848;
+}
